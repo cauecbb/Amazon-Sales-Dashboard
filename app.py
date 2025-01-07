@@ -2,12 +2,12 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-df = pd.read_csv('data/ecommerce.csv')
+df = pd.read_csv('data/AmazonSaleReport.csv')
 
-st.title("Dashboard - E-commerce")
+st.title("Dashboard - Amazon Report")
 
 # Counts orders per status
-status_count = df['order_status'].value_counts().reset_index()
+status_count = df['Status'].value_counts().reset_index()
 status_count.columns = ['Status', 'Quantity']
 
 # Shows the tabel with Status Count
