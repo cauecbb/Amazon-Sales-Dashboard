@@ -1,4 +1,4 @@
-# Dashboard - Amazon Report
+# Dashboard - Amazon Sales Report
 
 This project is a simple dashboard created with **Streamlit** and **Plotly Express** to visualize and analyze data from an Amazon Sales Report.
 
